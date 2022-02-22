@@ -29,5 +29,8 @@ int main() {
     
     return 0;
 }
-
+int volume(int height, int width, int length){
+    int vol=height*width*length;
+    return vol;  
+}
 // Implement the Volume() function here
